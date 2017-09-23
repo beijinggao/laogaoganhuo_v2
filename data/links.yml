@@ -1,0 +1,23 @@
+01_chekun:
+  title: Stack Overflow
+  link: https://stackoverflow.com/
+  avatar: /media/links/chekun.jpg
+  description: 技术问答
+
+02_wangbo:
+  title: 知乎
+  link: https://www.zhihu.com/
+  avatar: /media/links/wangbo.jpg
+  description: 发现更大的世界
+
+03_yuanxuxu:
+  title: Google
+  link: https://www.google.com/
+  avatar: /media/links/yuanxuxu.jpg
+  description: 谷歌
+
+04_candisheng:
+  title: 百度
+  link: http://www.baidu.com
+  avatar: /media/links/kandisheng.jpg
+  description: 百度

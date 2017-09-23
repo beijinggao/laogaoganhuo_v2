@@ -1,0 +1,96 @@
+#baseURL = "https://laogaoganhuo.github.io/"
+baseURL = "http://localhost:1313"
+languageCode = "cn_zh"
+title = "老高干货"
+theme = "hugo-nuo"
+enableRobotsTXT = true
+pygmentsuseclasses = true
+PygmentsCodeFences = true
+canonifyurls = true
+
+# Disqus Username
+disqus = false
+disqusShortname = "disqus_shortname"
+
+# Google Analytics UA number
+googleAnalytics = "UA-XXXXXXXX-X"
+
+# Copyright of your post
+copyright = "2017© 老高干货强力驱动"
+
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "首页"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "作品"
+  weight = 20
+  identifier = "works"
+  url = "https://github.com/"
+
+# Add your own params here
+[params]
+  author = "老高干货"
+  avatar = "/img/avatar.jpg"
+  seotitle = "干货知识分享、趣闻、美图！"
+  subtitle = "干货知识分享"
+  description = "干货知识分享、趣闻、美图！"
+  paginate = 10
+
+  # Choose your social networks
+  email = "name@domain.com"
+  github = "github_username"
+  twitter = "twitter_username"
+  linkedin = "linkedin_username"
+  weibo = "weibo_username"
+  wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
+  # facebook = "facebook_username"
+  # google = "googlplus_id_number"
+  # instagram = "instagram_username"
+  # youtube = "youtube_username"
+  # vimeo = "vimeo_username"
+  # medium = "medium_username"
+  # quora = "quora_username"
+  # pinterest = "pinterest_username"
+  # dribbble = "dribbble_username"
+  # behance = "behance_username"
+  # jsfiddle = "jsfiddle_username"
+  # codepen = "codepen_username"
+  # zhihu = "zhihu_username"
+  # douban = "douban_username"
+  # bilibili = "bilibili_id_number"
+
+  # Changyan Comments (China Only)
+  changyan = true
+  changyanId = "cytehoGRz"
+  changyanConf = "prod_921d6192bcdcaf6d8a36a192eba1b63d"
+
+  # Google Webmaster
+  # https://www.google.com/webmasters/
+  #googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+
+  # Bing Webmaster
+  # https://www.bing.com/toolbox/webmaster/
+  #msValidate = "22596E34341DD1D17D6022C44647E587"
+
+  # Baidu Webmaster (China Only)
+  # https://zhanzhang.baidu.com/
+  # baiduSiteVerification = "MZ23SPxxfa"
+
+  # Sogou Webmaster (China Only)
+  # http://zhanzhang.sogou.com/
+  # sogouSiteVerification = "m2jktMQTZm"
+
+  # 360 Webmaster (China Only)
+  # http://zhanzhang.so.com/
+  # soSiteVerification = "b7ab3b4c2edbc856642004d1b8c27a91"
+
+  # Baidu Tongji (China Only)
+  # https://tongji.baidu.com/
+  # baiduTongji = "e21dc1e8a592188271b615159dc88af7"
+
+  # ICP Number (China Only)
+  # ICP = "苏ICP备16005986号-2"
